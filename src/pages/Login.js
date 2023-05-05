@@ -1,5 +1,4 @@
 import { magic } from "../lib/magic";
-import { FaMicrosoft } from "react-icons/fa";
 
 const Login = () => {
   const handleSocialLogin = async () => {
@@ -17,7 +16,7 @@ const Login = () => {
     <div className="container">
       <h1>Magic Auth + Microsoft</h1>
       <button onClick={handleSocialLogin}>
-        <FaMicrosoft size={"2.5rem"} />
+        <img src="/microsoft_icon.png" alt="Microsoft logo" />
         Log in with Microsoft
       </button>
     </div>

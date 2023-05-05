@@ -48,6 +48,10 @@ button:hover {
   background-color: #f0f1f5;
 }
 
+img {
+  width: 2.5rem;
+}
+
 .loading {
   font-size: 3rem;
   margin: 30px;
