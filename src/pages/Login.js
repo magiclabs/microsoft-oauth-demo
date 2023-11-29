@@ -14,7 +14,7 @@ const Login = () => {
 
   return (
     <div className="container">
-      <h1>Magic Auth + Microsoft</h1>
+      <h1>Magic + Microsoft</h1>
       <button onClick={handleSocialLogin}>
         <img src="/microsoft-icon.png" alt="Microsoft logo" />
         Log in with Microsoft
